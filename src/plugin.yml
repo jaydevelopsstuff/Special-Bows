@@ -1,0 +1,13 @@
+main: lucid.specialbows.Main
+name: sbows
+version: 1.1.0
+author: Lucid
+commands:
+   sbows:
+permissions:
+   sbows.use:
+      default: op
+   sbows.create:
+      default: op
+      children: 
+         sbows.use: true
