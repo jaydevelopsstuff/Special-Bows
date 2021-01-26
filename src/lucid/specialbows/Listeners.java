@@ -9,7 +9,7 @@ import org.bukkit.event.entity.ProjectileHitEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class Listeners implements Listener {
-	public Entity arrow;
+	private Entity arrow;
 	
 	@EventHandler
 	public void onEntityShootBow(EntityShootBowEvent event) {
